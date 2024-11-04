@@ -21,11 +21,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-block: 30px;
+  /* padding-block: 30px; */
 }
 
 .container {
-  max-width: 400px;
+  max-width: 300px;
   width: 80%;
   padding: 1.5rem;
   background-color: var(--Very-dark-blue-card-BG);
@@ -67,8 +67,8 @@ body {
 }
 
 .title {
-  font-size: clamp(1.3rem, 2vw, 1.6rem);
-  margin-block: 1.3rem;
+  font-size: clamp(1.2rem, 2vw, 1.3rem);
+  margin-block: 1rem;
 }
 
 .title:hover {
@@ -78,16 +78,16 @@ body {
 
 .description {
   color: var(--Soft-blue);
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 1.5rem;
 }
 
 .info {
   border-bottom: solid 2px hsla(215, 51%, 70%, 0.1);
   padding-bottom: 1.5rem;
-  font-size: clamp(0.85rem, 1.5vw, 1.1rem);
+  font-size: 0.85rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
